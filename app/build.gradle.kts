@@ -32,6 +32,7 @@ android {
         create("free") {
             dimension = "version"
             applicationIdSuffix = ".free"
+            versionNameSuffix = "-free"
             resValue("string", "app_name", "MyApp Free")
         }
         create("paid") {

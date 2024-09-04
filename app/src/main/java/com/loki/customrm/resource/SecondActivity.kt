@@ -1,4 +1,4 @@
-package com.example.customrm.resource
+package com.loki.customrm.resource
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,15 +6,13 @@ import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.customrm.R
-import com.example.customrm.flavors.ThirdActivity
+import com.loki.customrm.R
 
-
-class MainActivity : BaseActivity() {
+class SecondActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_second)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
@@ -25,11 +23,11 @@ class MainActivity : BaseActivity() {
         val drawable = CustomResourceManager.loadDrawable(this, loc, drawableName)
 
 
-        val image = findViewById<ImageView>(R.id.my_image)
+        val image = findViewById<ImageView>(R.id.my_image_two)
         image.setImageDrawable(drawable)
 
         image?.setOnClickListener {
-            startActivity(Intent(this, ThirdActivity::class.java))
+            startActivity(Intent(this, SecondActivity::class.java))
         }
     }
 }

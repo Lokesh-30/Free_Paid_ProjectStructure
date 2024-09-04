@@ -1,4 +1,4 @@
-package com.example.customrm.resource
+package com.loki.customrm.resource
 
 import android.app.Activity
 import android.os.Bundle

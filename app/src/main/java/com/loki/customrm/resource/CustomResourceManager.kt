@@ -1,4 +1,4 @@
-package com.example.customrm.resource
+package com.loki.customrm.resource
 
 import android.content.Context
 import android.graphics.drawable.Drawable

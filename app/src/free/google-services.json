@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "391995219845",
+    "project_id": "build-flavors-bcbc2",
+    "storage_bucket": "build-flavors-bcbc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391995219845:android:272f226ef7a9bcae1d2eec",
+        "android_client_info": {
+          "package_name": "com.loki.free"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8mIUor48_GG15Q10moasH7fAKEWIrdFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391995219845:android:62080c5e2d41b7721d2eec",
+        "android_client_info": {
+          "package_name": "com.loki.paid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8mIUor48_GG15Q10moasH7fAKEWIrdFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

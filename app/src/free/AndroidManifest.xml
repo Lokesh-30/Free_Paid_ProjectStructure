@@ -5,8 +5,17 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name">
         <activity
-            android:name="com.example.customrm.flavors.ThirdActivity"
+            android:name="com.loki.customrm.flavors.ThirdActivity"
             android:exported="true"/>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_free" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/grey" />
+
     </application>
 
 </manifest>

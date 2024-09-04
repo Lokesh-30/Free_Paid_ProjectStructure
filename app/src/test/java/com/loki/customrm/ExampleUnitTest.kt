@@ -1,4 +1,4 @@
-package com.example.customrm
+package com.loki.customrm
 
 import org.junit.Test
 

@@ -1,14 +1,15 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
-    namespace = "com.example.customrm"
+    namespace = "com.loki.customrm"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.customrm"
+        applicationId = "com.loki"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -58,6 +59,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.firebase.messaging)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
